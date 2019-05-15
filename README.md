@@ -4,10 +4,10 @@ this bot signs into facebook account and searches for hashtag keword in all publ
 - First it logs in to the account using the password and user name.
 - After logging in the bot searches for posts having the desired key word.
 - Then it filters the search results to view all public posts.
-- Then it likes them one by one until it reaches the requestd number of posts to like.
+- Then it likes them one by one until it reaches the maximum scrolling length requestd.
 # Arguments
 * The script takes 4 arguments to work with:
    - Account Password (-p)
    - Account Username (-u)
    - Keyword (-k)
-   - Number Of Posts To Like (-l)
+   - length Of Page Scrolling (-l)
